@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+header i{
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.input-task{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.input{
+  width: 30%;
+  height: 30px;
+  font-size: 1.2rem;
+  color: rebeccapurple;
+  outline-color: #9980FA;
+  border-radius: 3px;
+  border-color: #9980FA;
+}
+
+.add-btn{
+  width: 6%;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 8px;
+  border-radius: 3px;
+  border-color: #9980FA;
+  cursor: pointer;
+}
+
+
+.output-task{
+  background: #f5f6fa;
+  border-radius: 4px;
+  width: 97%;
+  margin-left: 8px;
+  box-shadow: 10px 5px 5px #7f8c8d;
+  margin-top: 20px;
+  padding: 0.8rem;
+}
+
+.lists{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+}
+
+.lists i{
+  cursor: pointer;
+}
+
+.check{
+  width: 8%;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.remove{
+  width: 8%;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 28%;
+}
+
+.text{
+  flex: 1;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.8rem;
+}
+
+.textt{
+  text-decoration: line-through;
+  color: #c8d6e5;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.fall{
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.trash{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+.all-todos{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.items-left{
+  font-size: 1.3rem;
+  font-weight: bold;  
+}
+
+.clear-all{
+  background: #cc8e35;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding: 0.4rem;
+  transition: 0.5s ease-in-out;
+}
+
+.clear-all:hover{
+  background: #fff;
+  color: #cc8e35;
+}
