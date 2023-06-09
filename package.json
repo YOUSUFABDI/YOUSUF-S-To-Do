@@ -1,0 +1,15 @@
+{
+  "name": "yousuf-s-to-do",
+  "version": "1.0.0",
+  "description": "[link of the wesite is here](https://chic-scone-6099bb.netlify.app/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}

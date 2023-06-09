@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AMAZING TO DO LIST</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
-  <script src="./script.js" defer></script>
-</head>
-<body>
-  <header>
-    <h1>YOUSUF'S To Do</h1>
-    <i id="moon" class="fa-regular fa-moon"></i>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YOUSUF-S-To-Dos</title>
 
-  <div class="input-task">
-    <input class="input" type="text" placeholder="Create Todo...">
-    <button class="add-btn">+</button>
-  </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
 
-  <div class="output-task">
-    <ul class="todo-list"></ul>
-  </div>
+    <script src="./script.js" defer></script>
 
-  <div class="trash">
-    <div class="all-todos">All Todos</div>
-    <div class="items-left">Item Left</div>
-    <button class="clear-all">Clear All</button>
-  </div>
-</body>
+    <style>
+      #list {
+        list-style: none;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="list"></ul>
+
+    <form id="new-task-form">
+      <input type="text" id="new-task-title" />
+      <button type="submit">Add</button>
+    </form>
+  </body>
 </html>
